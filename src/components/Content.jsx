@@ -1,9 +1,10 @@
-
+import styles from './Product.module.css'
+import './App.css'
 
 
 function Content(props) {
     return (
-      <div className = "content">
+      <div className = {styles.content}>
         {/* <p>
         This is my first React Application, wish me luck!
         </p> */}

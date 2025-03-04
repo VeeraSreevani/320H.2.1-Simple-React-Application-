@@ -1,10 +1,10 @@
-
+import styles from './Product.module.css'
 
 
 function Header() {
     return (
     <header>
-      <div className= "header">
+      <div className= {styles.header}>
         {/* <h1>
             Simple React Application
         </h1> */}

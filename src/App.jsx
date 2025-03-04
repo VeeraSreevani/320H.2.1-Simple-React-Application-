@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Product from './components/Product'
 import products from './data/products';
+//import styles from './Product.module.css'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <h1>Store</h1>
       <Header/>
       <h2>Products</h2>
-      <div>
+      <div className="product">
           {
             products.map(item=> {
               return <Product {...item} key ={item.id}/>
